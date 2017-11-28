@@ -6,3 +6,6 @@ make: matrix.cpp
 
 folder: folders.cpp
 	$(CC) $(CFLAGS) -o folders folders.cpp
+
+parse: fileParsing.cpp
+	$(CC) $(CFLAGS) -o parse fileParsing.cpp
