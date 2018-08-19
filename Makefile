@@ -9,3 +9,6 @@ folder: folders.cpp
 
 parse: fileParsing.cpp
 	$(CC) $(CFLAGS) -o parse fileParsing.cpp
+
+vectors: vectors.cpp
+	$(CC) $(CFLAGS) -o vectors vectors.cpp -I.
